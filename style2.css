@@ -1,0 +1,45 @@
+.wrapper {
+    width: 300px;
+    background: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.screen {
+    background: #252323;
+    color: #fff;
+    font-size: 2em;
+    padding: 20px;
+    text-align: right;
+}
+
+.calc-buttons {
+    display: flex;
+    flex-direction: column;
+}
+
+.calc-button-row {
+    display: flex;
+}
+
+.calc-button {
+    flex: 1;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background: #f7f7f7;
+}
+
+.calc-button.double {
+    flex: 2;
+}
+
+.calc-button.triple {
+    flex: 3;
+}
+
+.calc-button:hover {
+    background: #e0e0e0;
+}

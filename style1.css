@@ -1,0 +1,18 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    align-items: center;
+    background: linear-gradient(320deg, #c96e9c, #fff396, #57a797);
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
